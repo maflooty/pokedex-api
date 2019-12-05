@@ -5,7 +5,7 @@
     "pokemon": {
       "type": "array",
       "items": {
-        "$ref": "#/pokemon-schema.json"
+        "$ref": "#/pokemon.json"
       }
     }
   }
