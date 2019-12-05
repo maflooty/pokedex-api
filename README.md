@@ -38,6 +38,7 @@ Enjoy!
 * Building report logs
 * Using `npm`: installing dependencies, running scripts
 * Understanding what "fullstack" means
+* Working with modular code
 
 
 #### Other People's Code
@@ -99,7 +100,20 @@ Before you start passing tests, you should install all dependencies and practice
 
 ## Your Task
 
-The good news is _almost_ all of the code is already written, and it already works!  All you need to write is the bodies for the 8 functions in `./functions`.  Each of the functions are used by the API to process the PokeDex data and return just the information a user needs:
+The good news is _almost_ all of the code is already written, and it already works!  All you need to write is the bodies for the 8 functions in `./functions`.  Each of the functions are used by the API to process the PokeDex data and return just the information a user needs.
+
+Each function lives in it's own small directory with a descriptive name, with three files:
+1. `index.js`: Contains the empty function you need to write.  Your function is exported from this file for testing, development, and deployment.
+2. `spec.js`: Test cases and mocha suites for each function are described in this file.  The test data is pulled from the sample data sets in `./data`.
+3. `sandbox.js`:  An empty file for your experiments.  It's not connected to any build or testing scripts, the API doesn't use it, it's just there for you to debug and play around with your function.  Each sandbox has 4 dependencies:
+    * `./index.js`: the function you are currently working on
+    * `pokedex`: the full pokedex data set
+    * `pokeData`: the complete array of pokemon objects used by the API
+    * `samples`: the sample data sets used by the test cases
+    * `assert`: a [native Node.js module](https://nodejs.org/api/assert.html) for asserting, you can think of it like `console.assert` on steroids
+
+
+Below are the 8 functions you need to write:
 
 #### values-for-key.js
 
