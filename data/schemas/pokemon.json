@@ -1,0 +1,105 @@
+{
+  "type": "object",
+  "description": "The name and type of all properties in a pokemon object.  Careful, not every pokemon has every property!",
+  "properties": {
+    "id": {
+      "type": "number",
+      "minimum": 1
+    },
+    "num": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "img": {
+      "type": "string",
+      "description": "a URL to this pokemon's .png file hosted on www.serbii.net"
+    },
+    "type": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "description": "valid pokemon types"
+      }
+    },
+    "height": {
+      "type": "string",
+      "description": "x.y m"
+    },
+    "weight": {
+      "type": "string",
+      "description": "x.y kg"
+    },
+    "candy": {
+      "type": "string",
+      "description": "'___ Candy' or 'None'"
+    },
+    "candy_count": {
+      "type": "number"
+    },
+    "egg": {
+      "type": "string",
+      "description": "'x km' or 'Not In Eggs'"
+    },
+    "spawn_chance": {
+      "type": "number",
+      "minimum": 0
+    },
+    "avg_spawns": {
+      "type": "number",
+      "minimum": 0
+    },
+    "spawn_time": {
+      "type": "string",
+      "description": "x:y"
+    },
+    "multipliers": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "number",
+        "minimum": 0
+      }
+    },
+    "weaknesses": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "description": "valid pokemon types"
+      }
+    },
+    "next_evolution": {
+      "type": "array",
+      "description": "the name and number of another pokemon in the pokedex",
+      "items": {
+        "type": "object",
+        "properties": {
+          "num": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "prev_evolution": {
+      "type": "array",
+      "description": "the name and number of another pokemon in the pokedex",
+      "items": {
+        "type": "object",
+        "properties": {
+          "num": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

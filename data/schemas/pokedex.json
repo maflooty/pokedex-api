@@ -1,0 +1,12 @@
+{
+  "description": "an object containing an array of pokemon objects",
+  "type": "object",
+  "properties": {
+    "pokemon": {
+      "type": "array",
+      "items": {
+        "$ref": "#/pokemon-schema.json"
+      }
+    }
+  }
+}

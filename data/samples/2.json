@@ -1,0 +1,179 @@
+[
+  {
+    "id": 43,
+    "num": "043",
+    "name": "Oddish",
+    "img": "http://www.serebii.net/pokemongo/pokemon/043.png",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "height": "0.51 m",
+    "weight": "5.4 kg",
+    "candy": "Oddish Candy",
+    "candy_count": 25,
+    "egg": "5 km",
+    "spawn_chance": 1.02,
+    "avg_spawns": 102,
+    "spawn_time": "03:58",
+    "multipliers": [
+      1.5
+    ],
+    "weaknesses": [
+      "Fire",
+      "Ice",
+      "Flying",
+      "Psychic"
+    ],
+    "next_evolution": [
+      {
+        "num": "044",
+        "name": "Gloom"
+      },
+      {
+        "num": "045",
+        "name": "Vileplume"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "num": "044",
+    "name": "Gloom",
+    "img": "http://www.serebii.net/pokemongo/pokemon/044.png",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "height": "0.79 m",
+    "weight": "8.6 kg",
+    "candy": "Oddish Candy",
+    "candy_count": 100,
+    "egg": "Not in Eggs",
+    "spawn_chance": 0.064,
+    "avg_spawns": 6.4,
+    "spawn_time": "11:33",
+    "multipliers": [
+      1.49
+    ],
+    "weaknesses": [
+      "Fire",
+      "Ice",
+      "Flying",
+      "Psychic"
+    ],
+    "prev_evolution": [
+      {
+        "num": "043",
+        "name": "Oddish"
+      }
+    ],
+    "next_evolution": [
+      {
+        "num": "045",
+        "name": "Vileplume"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "num": "045",
+    "name": "Vileplume",
+    "img": "http://www.serebii.net/pokemongo/pokemon/045.png",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "height": "1.19 m",
+    "weight": "18.6 kg",
+    "candy": "Oddish Candy",
+    "egg": "Not in Eggs",
+    "spawn_chance": 0.0097,
+    "avg_spawns": 0.97,
+    "spawn_time": "23:58",
+    "multipliers": null,
+    "weaknesses": [
+      "Fire",
+      "Ice",
+      "Flying",
+      "Psychic"
+    ],
+    "prev_evolution": [
+      {
+        "num": "043",
+        "name": "Oddish"
+      },
+      {
+        "num": "044",
+        "name": "Gloom"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "num": "046",
+    "name": "Paras",
+    "img": "http://www.serebii.net/pokemongo/pokemon/046.png",
+    "type": [
+      "Bug",
+      "Grass"
+    ],
+    "height": "0.30 m",
+    "weight": "5.4 kg",
+    "candy": "Paras Candy",
+    "candy_count": 50,
+    "egg": "5 km",
+    "spawn_chance": 2.36,
+    "avg_spawns": 236,
+    "spawn_time": "01:42",
+    "multipliers": [
+      2.02
+    ],
+    "weaknesses": [
+      "Fire",
+      "Ice",
+      "Poison",
+      "Flying",
+      "Bug",
+      "Rock"
+    ],
+    "next_evolution": [
+      {
+        "num": "047",
+        "name": "Parasect"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "num": "047",
+    "name": "Parasect",
+    "img": "http://www.serebii.net/pokemongo/pokemon/047.png",
+    "type": [
+      "Bug",
+      "Grass"
+    ],
+    "height": "0.99 m",
+    "weight": "29.5 kg",
+    "candy": "Paras Candy",
+    "egg": "Not in Eggs",
+    "spawn_chance": 0.074,
+    "avg_spawns": 7.4,
+    "spawn_time": "01:22",
+    "multipliers": null,
+    "weaknesses": [
+      "Fire",
+      "Ice",
+      "Poison",
+      "Flying",
+      "Bug",
+      "Rock"
+    ],
+    "prev_evolution": [
+      {
+        "num": "046",
+        "name": "Paras"
+      }
+    ]
+  }
+]

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+
+  <title>Pokedex API Frontend</title>
+
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <!-- https://stackoverflow.com/questions/1321878/how-to-prevent-favicon-ico-requests -->
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=">
+
+  <script>
+    window.onload = () => {
+
+      fetch('/docs')
+        .then(resp => resp.json())
+        .then(docs => {
+          console.log('docs:', docs)
+
+          const header = document.createElement('h2');
+          header.innerHTML = docs.message;
+
+          const input = document.createElement('input');
+          input.style.width = '300px';
+          input.onkeypress = (e) => {
+            if (e.keyCode == 13) {
+              fetch(input.value)
+                .then(resp => resp.json())
+                .then(data => console.log(input.value + ':\n', data))
+                .catch(err => console.log(err));
+            };
+          };
+
+          const routesList = docs.routes
+            .map(routeString => {
+              const newLi = document.createElement('li');
+              newLi.innerHTML = routeString;
+              return newLi;
+            })
+            .reduce((list, li) => {
+              list.appendChild(li);
+              return list;
+            }, document.createElement('div'));
+
+          const root = document.getElementById('root');
+          root.appendChild(header);
+          root.appendChild(document.createTextNode('GET: / '));
+          root.appendChild(input);
+          root.appendChild(document.createElement('br'));
+          root.appendChild(document.createElement('br'));
+          root.appendChild(routesList);
+
+        })
+        .catch(err => console.log(err))
+    }
+  </script>
+</head>
+
+<body>
+
+  <div id='root'></div>
+
+</body>
+
+</html>

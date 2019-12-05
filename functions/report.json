@@ -1,0 +1,2304 @@
+{
+  "stats": {
+    "suites": 8,
+    "tests": 45,
+    "passes": 0,
+    "pending": 0,
+    "failures": 45,
+    "start": "2019-12-05T12:40:45.951Z",
+    "end": "2019-12-05T12:40:45.993Z",
+    "duration": 42
+  },
+  "tests": [
+    {
+      "title": "data/samples/2.json, \"id\"",
+      "fullTitle": "valuesForKey(pokeData, key) -> returns all the values stored in the given key:  data/samples/2.json, \"id\"",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          43,
+          44,
+          45,
+          46,
+          47
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ 43, 44, 45, 46, 47 ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ 43, 44, 45, 46, 47 ]\n    at Context.it (functions/values-for-key/spec.js:79:14)"
+      }
+    },
+    {
+      "title": "data/samples/3.json, \"num\"",
+      "fullTitle": "valuesForKey(pokeData, key) -> returns all the values stored in the given key:  data/samples/3.json, \"num\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          "083",
+          "084",
+          "085",
+          "086",
+          "087"
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ '083', '084', '085', '086', '087' ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ '083', '084', '085', '086', '087' ]\n    at Context.it (functions/values-for-key/spec.js:79:14)"
+      }
+    },
+    {
+      "title": "data/samples/4.json, \"weaknesses\"",
+      "fullTitle": "valuesForKey(pokeData, key) -> returns all the values stored in the given key:  data/samples/4.json, \"weaknesses\"",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          [
+            "Bug",
+            "Ghost",
+            "Dark"
+          ],
+          [
+            "Fire",
+            "Electric",
+            "Ice",
+            "Flying",
+            "Rock"
+          ],
+          [
+            "Fire",
+            "Bug",
+            "Rock",
+            "Ghost",
+            "Dark",
+            "Steel"
+          ],
+          [
+            "Ground"
+          ],
+          [
+            "Water",
+            "Ground",
+            "Rock"
+          ],
+          [
+            "Fire",
+            "Flying",
+            "Rock"
+          ],
+          [
+            "Fighting"
+          ],
+          [
+            "Electric",
+            "Grass"
+          ],
+          [
+            "Electric",
+            "Rock"
+          ],
+          [
+            "Electric",
+            "Grass",
+            "Fighting",
+            "Rock"
+          ]
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ [ 'Bug', 'Ghost', 'Dark' ],\n  [ 'Fire', 'Electric', 'Ice', 'Flying', 'Rock' ],\n  [ 'Fire', 'Bug', 'Rock', 'Ghost', 'Dark', 'St",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ [ 'Bug', 'Ghost', 'Dark' ],\n  [ 'Fire', 'Electric', 'Ice', 'Flying', 'Rock' ],\n  [ 'Fire', 'Bug', 'Rock', 'Ghost', 'Dark', 'St\n    at Context.it (functions/values-for-key/spec.js:79:14)"
+      }
+    },
+    {
+      "title": "data/samples/5.json, \"next_evolution\"",
+      "fullTitle": "valuesForKey(pokeData, key) -> returns all the values stored in the given key:  data/samples/5.json, \"next_evolution\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          [
+            {
+              "num": "148",
+              "name": "Dragonair"
+            },
+            {
+              "num": "149",
+              "name": "Dragonite"
+            }
+          ],
+          [
+            {
+              "num": "149",
+              "name": "Dragonite"
+            }
+          ]
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ [ { num: '148', name: 'Dragonair' },\n    { num: '149', name: 'Dragonite' } ],\n  [ { num: '149', name: 'Dragonite' } ] ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ [ { num: '148', name: 'Dragonair' },\n    { num: '149', name: 'Dragonite' } ],\n  [ { num: '149', name: 'Dragonite' } ] ]\n    at Context.it (functions/values-for-key/spec.js:79:14)"
+      }
+    },
+    {
+      "title": "data/samples/4.json, \"prev_evolution\"",
+      "fullTitle": "valuesForKey(pokeData, key) -> returns all the values stored in the given key:  data/samples/4.json, \"prev_evolution\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          [
+            {
+              "num": "129",
+              "name": "Magikarp"
+            }
+          ]
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ [ { num: '129', name: 'Magikarp' } ] ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ [ { num: '129', name: 'Magikarp' } ] ]\n    at Context.it (functions/values-for-key/spec.js:79:14)"
+      }
+    },
+    {
+      "title": "data/samples/3.json, \"multipliers\"",
+      "fullTitle": "valuesForKey(pokeData, key) -> returns all the values stored in the given key:  data/samples/3.json, \"multipliers\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          null,
+          [
+            2.19,
+            2.24
+          ],
+          [
+            1.04,
+            1.96
+          ]
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ null, [ 2.19, 2.24 ], [ 1.04, 1.96 ] ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ null, [ 2.19, 2.24 ], [ 1.04, 1.96 ] ]\n    at Context.it (functions/values-for-key/spec.js:79:14)"
+      }
+    },
+    {
+      "title": "data/samples/2.json, \"name\"",
+      "fullTitle": "valuesForKey(pokeData, key) -> returns all the values stored in the given key:  data/samples/2.json, \"name\"",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          "Oddish",
+          "Gloom",
+          "Vileplume",
+          "Paras",
+          "Parasect"
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ 'Oddish', 'Gloom', 'Vileplume', 'Paras', 'Parasect' ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ 'Oddish', 'Gloom', 'Vileplume', 'Paras', 'Parasect' ]\n    at Context.it (functions/values-for-key/spec.js:79:14)"
+      }
+    },
+    {
+      "title": "data/samples/5.json, \"Dragon\"",
+      "fullTitle": "weakness(pokeData, weakness) -> returns the name and number of all pokemon with this weakness:  data/samples/5.json, \"Dragon\"",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "name": "Dratini",
+            "num": "147"
+          },
+          {
+            "name": "Dragonair",
+            "num": "148"
+          },
+          {
+            "name": "Dragonite",
+            "num": "149"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { name: 'Dratini', num: '147' },\n  { name: 'Dragonair', num: '148' },\n  { name: 'Dragonite', num: '149' } ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { name: 'Dratini', num: '147' },\n  { name: 'Dragonair', num: '148' },\n  { name: 'Dragonite', num: '149' } ]\n    at Context.it (functions/find-by/weakness/spec.js:81:14)"
+      }
+    },
+    {
+      "title": "data/samples/4.json, \"Normal\"",
+      "fullTitle": "weakness(pokeData, weakness) -> returns the name and number of all pokemon with this weakness:  data/samples/4.json, \"Normal\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual []",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual []\n    at Context.it (functions/find-by/weakness/spec.js:81:14)"
+      }
+    },
+    {
+      "title": "data/samples/3.json, \"Fighting\"",
+      "fullTitle": "weakness(pokeData, weakness) -> returns the name and number of all pokemon with this weakness:  data/samples/3.json, \"Fighting\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "name": "Dewgong",
+            "num": "087"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { name: 'Dewgong', num: '087' } ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { name: 'Dewgong', num: '087' } ]\n    at Context.it (functions/find-by/weakness/spec.js:81:14)"
+      }
+    },
+    {
+      "title": "data/samples/2.json, \"Bug\"",
+      "fullTitle": "weakness(pokeData, weakness) -> returns the name and number of all pokemon with this weakness:  data/samples/2.json, \"Bug\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "name": "Paras",
+            "num": "046"
+          },
+          {
+            "name": "Parasect",
+            "num": "047"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { name: 'Paras', num: '046' },\n  { name: 'Parasect', num: '047' } ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { name: 'Paras', num: '046' },\n  { name: 'Parasect', num: '047' } ]\n    at Context.it (functions/find-by/weakness/spec.js:81:14)"
+      }
+    },
+    {
+      "title": "data/samples/1.json, \"Electric\"",
+      "fullTitle": "weakness(pokeData, weakness) -> returns the name and number of all pokemon with this weakness:  data/samples/1.json, \"Electric\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "name": "Squirtle",
+            "num": "007"
+          },
+          {
+            "name": "Wartortle",
+            "num": "008"
+          },
+          {
+            "name": "Blastoise",
+            "num": "009"
+          },
+          {
+            "name": "Butterfree",
+            "num": "012"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { name: 'Squirtle', num: '007' },\n  { name: 'Wartortle', num: '008' },\n  { name: 'Blastoise', num: '009' },\n  { name: 'Butterf",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { name: 'Squirtle', num: '007' },\n  { name: 'Wartortle', num: '008' },\n  { name: 'Blastoise', num: '009' },\n  { name: 'Butterf\n    at Context.it (functions/find-by/weakness/spec.js:81:14)"
+      }
+    },
+    {
+      "title": "data/samples/5.json, \"null\"",
+      "fullTitle": "value(pokeData, value) -> returns the name and number of all pokemon with this value in any key:  data/samples/5.json, \"null\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "name": "Moltres",
+            "num": "146"
+          },
+          {
+            "name": "Dragonite",
+            "num": "149"
+          },
+          {
+            "name": "Mewtwo",
+            "num": "150"
+          },
+          {
+            "name": "Mew",
+            "num": "151"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { name: 'Moltres', num: '146' },\n  { name: 'Dragonite', num: '149' },\n  { name: 'Mewtwo', num: '150' },\n  { name: 'Mew', num: ",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { name: 'Moltres', num: '146' },\n  { name: 'Dragonite', num: '149' },\n  { name: 'Mewtwo', num: '150' },\n  { name: 'Mew', num: \n    at Context.it (functions/find-by/value/spec.js:99:14)"
+      }
+    },
+    {
+      "title": "data/samples/4.json, \"None\"",
+      "fullTitle": "value(pokeData, value) -> returns the name and number of all pokemon with this value in any key:  data/samples/4.json, \"None\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "name": "Mr. Mime",
+            "num": "122"
+          },
+          {
+            "name": "Scyther",
+            "num": "123"
+          },
+          {
+            "name": "Jynx",
+            "num": "124"
+          },
+          {
+            "name": "Electabuzz",
+            "num": "125"
+          },
+          {
+            "name": "Magmar",
+            "num": "126"
+          },
+          {
+            "name": "Pinsir",
+            "num": "127"
+          },
+          {
+            "name": "Tauros",
+            "num": "128"
+          },
+          {
+            "name": "Lapras",
+            "num": "131"
+          },
+          {
+            "name": "Ditto",
+            "num": "132"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { name: 'Mr. Mime', num: '122' },\n  { name: 'Scyther', num: '123' },\n  { name: 'Jynx', num: '124' },\n  { name: 'Electabuzz', n",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { name: 'Mr. Mime', num: '122' },\n  { name: 'Scyther', num: '123' },\n  { name: 'Jynx', num: '124' },\n  { name: 'Electabuzz', n\n    at Context.it (functions/find-by/value/spec.js:99:14)"
+      }
+    },
+    {
+      "title": "data/samples/2.json, \"Bug\"",
+      "fullTitle": "value(pokeData, value) -> returns the name and number of all pokemon with this value in any key:  data/samples/2.json, \"Bug\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual []",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual []\n    at Context.it (functions/find-by/value/spec.js:99:14)"
+      }
+    },
+    {
+      "title": "data/samples/1.json, \"12\"",
+      "fullTitle": "value(pokeData, value) -> returns the name and number of all pokemon with this value in any key:  data/samples/1.json, \"12\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "name": "Caterpie",
+            "num": "010"
+          },
+          {
+            "name": "Butterfree",
+            "num": "012"
+          },
+          {
+            "name": "Weedle",
+            "num": "013"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { name: 'Caterpie', num: '010' },\n  { name: 'Butterfree', num: '012' },\n  { name: 'Weedle', num: '013' } ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { name: 'Caterpie', num: '010' },\n  { name: 'Butterfree', num: '012' },\n  { name: 'Weedle', num: '013' } ]\n    at Context.it (functions/find-by/value/spec.js:99:14)"
+      }
+    },
+    {
+      "title": "data/samples/1.json, \"name\", \"Weedle\"",
+      "fullTitle": "keyValue(pokeData, key, value) -> returns the number and name of all pokemon with the given key/value pair:  data/samples/1.json, \"name\", \"Weedle\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "num": "013",
+            "name": "Weedle"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { num: '013', name: 'Weedle' } ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { num: '013', name: 'Weedle' } ]\n    at Context.it (functions/find-by/key-value/spec.js:84:14)"
+      }
+    },
+    {
+      "title": "data/samples/1.json, \"id\", \"12\"",
+      "fullTitle": "keyValue(pokeData, key, value) -> returns the number and name of all pokemon with the given key/value pair:  data/samples/1.json, \"id\", \"12\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "num": "012",
+            "name": "Butterfree"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { num: '012', name: 'Butterfree' } ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { num: '012', name: 'Butterfree' } ]\n    at Context.it (functions/find-by/key-value/spec.js:84:14)"
+      }
+    },
+    {
+      "title": "data/samples/2.json, \"doesNotExist\", \"hi!\"",
+      "fullTitle": "keyValue(pokeData, key, value) -> returns the number and name of all pokemon with the given key/value pair:  data/samples/2.json, \"doesNotExist\", \"hi!\"",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual []",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual []\n    at Context.it (functions/find-by/key-value/spec.js:84:14)"
+      }
+    },
+    {
+      "title": "data/samples/2.json, \"name\", \"Mew\"",
+      "fullTitle": "keyValue(pokeData, key, value) -> returns the number and name of all pokemon with the given key/value pair:  data/samples/2.json, \"name\", \"Mew\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual []",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual []\n    at Context.it (functions/find-by/key-value/spec.js:84:14)"
+      }
+    },
+    {
+      "title": "data/samples/3.json, \"egg\", \"Not in Eggs\"",
+      "fullTitle": "keyValue(pokeData, key, value) -> returns the number and name of all pokemon with the given key/value pair:  data/samples/3.json, \"egg\", \"Not in Eggs\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "num": "085",
+            "name": "Dodrio"
+          },
+          {
+            "num": "087",
+            "name": "Dewgong"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { num: '085', name: 'Dodrio' },\n  { num: '087', name: 'Dewgong' } ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { num: '085', name: 'Dodrio' },\n  { num: '087', name: 'Dewgong' } ]\n    at Context.it (functions/find-by/key-value/spec.js:84:14)"
+      }
+    },
+    {
+      "title": "data/samples/3.json, \"egg\", \"5 km",
+      "fullTitle": "keyValue(pokeData, key, value) -> returns the number and name of all pokemon with the given key/value pair:  data/samples/3.json, \"egg\", \"5 km",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "num": "083",
+            "name": "Farfetch'd"
+          },
+          {
+            "num": "084",
+            "name": "Doduo"
+          },
+          {
+            "num": "086",
+            "name": "Seel"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { num: '083', name: 'Farfetch\\'d' },\n  { num: '084', name: 'Doduo' },\n  { num: '086', name: 'Seel' } ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { num: '083', name: 'Farfetch\\'d' },\n  { num: '084', name: 'Doduo' },\n  { num: '086', name: 'Seel' } ]\n    at Context.it (functions/find-by/key-value/spec.js:84:14)"
+      }
+    },
+    {
+      "title": "data/samples/4.json, \"spawn_time\", \"N/A\"",
+      "fullTitle": "keyValue(pokeData, key, value) -> returns the number and name of all pokemon with the given key/value pair:  data/samples/4.json, \"spawn_time\", \"N/A\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "num": "132",
+            "name": "Ditto"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { num: '132', name: 'Ditto' } ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { num: '132', name: 'Ditto' } ]\n    at Context.it (functions/find-by/key-value/spec.js:84:14)"
+      }
+    },
+    {
+      "title": "data/samples/5.json, \"Dragon\"",
+      "fullTitle": "type(pokeData, type) -> returns the name and number of all pokemon with this type:  data/samples/5.json, \"Dragon\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "name": "Dratini",
+            "num": "147"
+          },
+          {
+            "name": "Dragonair",
+            "num": "148"
+          },
+          {
+            "name": "Dragonite",
+            "num": "149"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { name: 'Dratini', num: '147' },\n  { name: 'Dragonair', num: '148' },\n  { name: 'Dragonite', num: '149' } ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { name: 'Dratini', num: '147' },\n  { name: 'Dragonair', num: '148' },\n  { name: 'Dragonite', num: '149' } ]\n    at Context.it (functions/find-by/type/spec.js:102:14)"
+      }
+    },
+    {
+      "title": "data/samples/4.json, \"Normal\"",
+      "fullTitle": "type(pokeData, type) -> returns the name and number of all pokemon with this type:  data/samples/4.json, \"Normal\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "name": "Tauros",
+            "num": "128"
+          },
+          {
+            "name": "Ditto",
+            "num": "132"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { name: 'Tauros', num: '128' },\n  { name: 'Ditto', num: '132' } ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { name: 'Tauros', num: '128' },\n  { name: 'Ditto', num: '132' } ]\n    at Context.it (functions/find-by/type/spec.js:102:14)"
+      }
+    },
+    {
+      "title": "data/samples/3.json, \"Water\"",
+      "fullTitle": "type(pokeData, type) -> returns the name and number of all pokemon with this type:  data/samples/3.json, \"Water\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "name": "Seel",
+            "num": "086"
+          },
+          {
+            "name": "Dewgong",
+            "num": "087"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { name: 'Seel', num: '086' },\n  { name: 'Dewgong', num: '087' } ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { name: 'Seel', num: '086' },\n  { name: 'Dewgong', num: '087' } ]\n    at Context.it (functions/find-by/type/spec.js:102:14)"
+      }
+    },
+    {
+      "title": "data/samples/2.json, \"Bug\"",
+      "fullTitle": "type(pokeData, type) -> returns the name and number of all pokemon with this type:  data/samples/2.json, \"Bug\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "name": "Paras",
+            "num": "046"
+          },
+          {
+            "name": "Parasect",
+            "num": "047"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { name: 'Paras', num: '046' },\n  { name: 'Parasect', num: '047' } ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { name: 'Paras', num: '046' },\n  { name: 'Parasect', num: '047' } ]\n    at Context.it (functions/find-by/type/spec.js:102:14)"
+      }
+    },
+    {
+      "title": "data/samples/1.json, \"Bug\"",
+      "fullTitle": "type(pokeData, type) -> returns the name and number of all pokemon with this type:  data/samples/1.json, \"Bug\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "name": "Caterpie",
+            "num": "010"
+          },
+          {
+            "name": "Metapod",
+            "num": "011"
+          },
+          {
+            "name": "Butterfree",
+            "num": "012"
+          },
+          {
+            "name": "Weedle",
+            "num": "013"
+          },
+          {
+            "name": "Kakuna",
+            "num": "014"
+          },
+          {
+            "name": "Beedrill",
+            "num": "015"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { name: 'Caterpie', num: '010' },\n  { name: 'Metapod', num: '011' },\n  { name: 'Butterfree', num: '012' },\n  { name: 'Weedle',",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { name: 'Caterpie', num: '010' },\n  { name: 'Metapod', num: '011' },\n  { name: 'Butterfree', num: '012' },\n  { name: 'Weedle',\n    at Context.it (functions/find-by/type/spec.js:102:14)"
+      }
+    },
+    {
+      "title": "data/samples/1.json, 13",
+      "fullTitle": "id(pokeData, id) -> returns the pokemon object with the given id, or an empty object:  data/samples/1.json, 13",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": {
+          "id": 13,
+          "num": "013",
+          "name": "Weedle",
+          "img": "http://www.serebii.net/pokemongo/pokemon/013.png",
+          "type": [
+            "Bug",
+            "Poison"
+          ],
+          "height": "0.30 m",
+          "weight": "3.2 kg",
+          "candy": "Weedle Candy",
+          "candy_count": 12,
+          "egg": "2 km",
+          "spawn_chance": 7.12,
+          "avg_spawns": 712,
+          "spawn_time": "02:21",
+          "multipliers": [
+            1.01,
+            1.09
+          ],
+          "weaknesses": [
+            "Fire",
+            "Flying",
+            "Psychic",
+            "Rock"
+          ],
+          "next_evolution": [
+            {
+              "num": "014",
+              "name": "Kakuna"
+            },
+            {
+              "num": "015",
+              "name": "Beedrill"
+            }
+          ]
+        },
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual { id: 13,\n  num: '013',\n  name: 'Weedle',\n  img: 'http://www.serebii.net/pokemongo/pokemon/013.png',\n  type: [ 'Bug', 'Poison' ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual { id: 13,\n  num: '013',\n  name: 'Weedle',\n  img: 'http://www.serebii.net/pokemongo/pokemon/013.png',\n  type: [ 'Bug', 'Poison' ]\n    at Context.it (functions/find-by/id/spec.js:171:14)"
+      }
+    },
+    {
+      "title": "data/samples/1.json, 16",
+      "fullTitle": "id(pokeData, id) -> returns the pokemon object with the given id, or an empty object:  data/samples/1.json, 16",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": {},
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual {}",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual {}\n    at Context.it (functions/find-by/id/spec.js:171:14)"
+      }
+    },
+    {
+      "title": "data/samples/2.json, 46",
+      "fullTitle": "id(pokeData, id) -> returns the pokemon object with the given id, or an empty object:  data/samples/2.json, 46",
+      "duration": 9,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": {
+          "id": 46,
+          "num": "046",
+          "name": "Paras",
+          "img": "http://www.serebii.net/pokemongo/pokemon/046.png",
+          "type": [
+            "Bug",
+            "Grass"
+          ],
+          "height": "0.30 m",
+          "weight": "5.4 kg",
+          "candy": "Paras Candy",
+          "candy_count": 50,
+          "egg": "5 km",
+          "spawn_chance": 2.36,
+          "avg_spawns": 236,
+          "spawn_time": "01:42",
+          "multipliers": [
+            2.02
+          ],
+          "weaknesses": [
+            "Fire",
+            "Ice",
+            "Poison",
+            "Flying",
+            "Bug",
+            "Rock"
+          ],
+          "next_evolution": [
+            {
+              "num": "047",
+              "name": "Parasect"
+            }
+          ]
+        },
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual { id: 46,\n  num: '046',\n  name: 'Paras',\n  img: 'http://www.serebii.net/pokemongo/pokemon/046.png',\n  type: [ 'Bug', 'Grass' ],\n",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual { id: 46,\n  num: '046',\n  name: 'Paras',\n  img: 'http://www.serebii.net/pokemongo/pokemon/046.png',\n  type: [ 'Bug', 'Grass' ],\n\n    at Context.it (functions/find-by/id/spec.js:171:14)"
+      }
+    },
+    {
+      "title": "data/samples/2.json, 42",
+      "fullTitle": "id(pokeData, id) -> returns the pokemon object with the given id, or an empty object:  data/samples/2.json, 42",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": {},
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual {}",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual {}\n    at Context.it (functions/find-by/id/spec.js:171:14)"
+      }
+    },
+    {
+      "title": "data/samples/3.json, 84",
+      "fullTitle": "id(pokeData, id) -> returns the pokemon object with the given id, or an empty object:  data/samples/3.json, 84",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": {
+          "id": 84,
+          "num": "084",
+          "name": "Doduo",
+          "img": "http://www.serebii.net/pokemongo/pokemon/084.png",
+          "type": [
+            "Normal",
+            "Flying"
+          ],
+          "height": "1.40 m",
+          "weight": "39.2 kg",
+          "candy": "Doduo Candy",
+          "candy_count": 50,
+          "egg": "5 km",
+          "spawn_chance": 0.52,
+          "avg_spawns": 52,
+          "spawn_time": "05:10",
+          "multipliers": [
+            2.19,
+            2.24
+          ],
+          "weaknesses": [
+            "Electric",
+            "Rock"
+          ],
+          "next_evolution": [
+            {
+              "num": "085",
+              "name": "Dodrio"
+            }
+          ]
+        },
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual { id: 84,\n  num: '084',\n  name: 'Doduo',\n  img: 'http://www.serebii.net/pokemongo/pokemon/084.png',\n  type: [ 'Normal', 'Flying'",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual { id: 84,\n  num: '084',\n  name: 'Doduo',\n  img: 'http://www.serebii.net/pokemongo/pokemon/084.png',\n  type: [ 'Normal', 'Flying'\n    at Context.it (functions/find-by/id/spec.js:171:14)"
+      }
+    },
+    {
+      "title": "data/samples/3.json, 85",
+      "fullTitle": "id(pokeData, id) -> returns the pokemon object with the given id, or an empty object:  data/samples/3.json, 85",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": {
+          "id": 85,
+          "num": "085",
+          "name": "Dodrio",
+          "img": "http://www.serebii.net/pokemongo/pokemon/085.png",
+          "type": [
+            "Normal",
+            "Flying"
+          ],
+          "height": "1.80 m",
+          "weight": "85.2 kg",
+          "candy": "Doduo Candy",
+          "egg": "Not in Eggs",
+          "spawn_chance": 0.22,
+          "avg_spawns": 22,
+          "spawn_time": "02:12",
+          "multipliers": null,
+          "weaknesses": [
+            "Electric",
+            "Rock"
+          ],
+          "prev_evolution": [
+            {
+              "num": "084",
+              "name": "Doduo"
+            }
+          ]
+        },
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual { id: 85,\n  num: '085',\n  name: 'Dodrio',\n  img: 'http://www.serebii.net/pokemongo/pokemon/085.png',\n  type: [ 'Normal', 'Flying",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual { id: 85,\n  num: '085',\n  name: 'Dodrio',\n  img: 'http://www.serebii.net/pokemongo/pokemon/085.png',\n  type: [ 'Normal', 'Flying\n    at Context.it (functions/find-by/id/spec.js:171:14)"
+      }
+    },
+    {
+      "title": "data/samples/1.json, \"Squirtle\"",
+      "fullTitle": "evolutionOf(pokeData, name) -> returns all evolutions of a pokemon, given it's name:  data/samples/1.json, \"Squirtle\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "num": "007",
+            "name": "Squirtle"
+          },
+          {
+            "num": "008",
+            "name": "Wartortle"
+          },
+          {
+            "num": "009",
+            "name": "Blastoise"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { num: '007', name: 'Squirtle' },\n  { num: '008', name: 'Wartortle' },\n  { num: '009', name: 'Blastoise' } ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { num: '007', name: 'Squirtle' },\n  { num: '008', name: 'Wartortle' },\n  { num: '009', name: 'Blastoise' } ]\n    at Context.it (functions/evolutions-of/spec.js:51:14)"
+      }
+    },
+    {
+      "title": "data/samples/1.json, \"Wartortle\"",
+      "fullTitle": "evolutionOf(pokeData, name) -> returns all evolutions of a pokemon, given it's name:  data/samples/1.json, \"Wartortle\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "num": "007",
+            "name": "Squirtle"
+          },
+          {
+            "num": "008",
+            "name": "Wartortle"
+          },
+          {
+            "num": "009",
+            "name": "Blastoise"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { num: '007', name: 'Squirtle' },\n  { num: '008', name: 'Wartortle' },\n  { num: '009', name: 'Blastoise' } ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { num: '007', name: 'Squirtle' },\n  { num: '008', name: 'Wartortle' },\n  { num: '009', name: 'Blastoise' } ]\n    at Context.it (functions/evolutions-of/spec.js:51:14)"
+      }
+    },
+    {
+      "title": "data/samples/1.json, \"Blastoise\"",
+      "fullTitle": "evolutionOf(pokeData, name) -> returns all evolutions of a pokemon, given it's name:  data/samples/1.json, \"Blastoise\"",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "num": "007",
+            "name": "Squirtle"
+          },
+          {
+            "num": "008",
+            "name": "Wartortle"
+          },
+          {
+            "num": "009",
+            "name": "Blastoise"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { num: '007', name: 'Squirtle' },\n  { num: '008', name: 'Wartortle' },\n  { num: '009', name: 'Blastoise' } ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { num: '007', name: 'Squirtle' },\n  { num: '008', name: 'Wartortle' },\n  { num: '009', name: 'Blastoise' } ]\n    at Context.it (functions/evolutions-of/spec.js:51:14)"
+      }
+    },
+    {
+      "title": "data/samples/5.json, Mew",
+      "fullTitle": "evolutionOf(pokeData, name) -> returns all evolutions of a pokemon, given it's name:  data/samples/5.json, Mew",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "name": "Mew",
+            "num": "151"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { name: 'Mew', num: '151' } ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { name: 'Mew', num: '151' } ]\n    at Context.it (functions/evolutions-of/spec.js:51:14)"
+      }
+    },
+    {
+      "title": "data/samples/3.json, \"DoesNotExist\"",
+      "fullTitle": "evolutionOf(pokeData, name) -> returns all evolutions of a pokemon, given it's name:  data/samples/3.json, \"DoesNotExist\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual []",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual []\n    at Context.it (functions/evolutions-of/spec.js:51:14)"
+      }
+    },
+    {
+      "title": "data/samples/5.json, \"Dragon\"",
+      "fullTitle": "typeStats(pokeData, type) -> returns how many times a type appears as a type and as a weakness:  data/samples/5.json, \"Dragon\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": {
+          "typeCount": 3,
+          "typeName": "Dragon",
+          "weaknessCount": 3
+        },
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual { typeCount: 3, typeName: 'Dragon', weaknessCount: 3 }",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual { typeCount: 3, typeName: 'Dragon', weaknessCount: 3 }\n    at Context.it (functions/type-stats/spec.js:66:14)"
+      }
+    },
+    {
+      "title": "data/samples/5.json, \"Fairy\"",
+      "fullTitle": "typeStats(pokeData, type) -> returns how many times a type appears as a type and as a weakness:  data/samples/5.json, \"Fairy\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": {
+          "typeCount": 0,
+          "typeName": "Fairy",
+          "weaknessCount": 3
+        },
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual { typeCount: 0, typeName: 'Fairy', weaknessCount: 3 }",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual { typeCount: 0, typeName: 'Fairy', weaknessCount: 3 }\n    at Context.it (functions/type-stats/spec.js:66:14)"
+      }
+    },
+    {
+      "title": "data/samples/2.json, \"Grass\"",
+      "fullTitle": "typeStats(pokeData, type) -> returns how many times a type appears as a type and as a weakness:  data/samples/2.json, \"Grass\"",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": {
+          "typeCount": 5,
+          "typeName": "Grass",
+          "weaknessCount": 0
+        },
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual { typeCount: 5, typeName: 'Grass', weaknessCount: 0 }",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual { typeCount: 5, typeName: 'Grass', weaknessCount: 0 }\n    at Context.it (functions/type-stats/spec.js:66:14)"
+      }
+    },
+    {
+      "title": "data/samples/2.json, \"Fire\"",
+      "fullTitle": "typeStats(pokeData, type) -> returns how many times a type appears as a type and as a weakness:  data/samples/2.json, \"Fire\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": {
+          "typeCount": 0,
+          "typeName": "Fire",
+          "weaknessCount": 5
+        },
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual { typeCount: 0, typeName: 'Fire', weaknessCount: 5 }",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual { typeCount: 0, typeName: 'Fire', weaknessCount: 5 }\n    at Context.it (functions/type-stats/spec.js:66:14)"
+      }
+    },
+    {
+      "title": "data/samples/4.json, \"Normal\"",
+      "fullTitle": "typeStats(pokeData, type) -> returns how many times a type appears as a type and as a weakness:  data/samples/4.json, \"Normal\"",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": {
+          "typeCount": 2,
+          "typeName": "Normal",
+          "weaknessCount": 0
+        },
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual { typeCount: 2, typeName: 'Normal', weaknessCount: 0 }",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual { typeCount: 2, typeName: 'Normal', weaknessCount: 0 }\n    at Context.it (functions/type-stats/spec.js:66:14)"
+      }
+    },
+    {
+      "title": "data/samples/4.json, \"Fighting\"",
+      "fullTitle": "typeStats(pokeData, type) -> returns how many times a type appears as a type and as a weakness:  data/samples/4.json, \"Fighting\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": {
+          "typeCount": 0,
+          "typeName": "Fighting",
+          "weaknessCount": 3
+        },
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual { typeCount: 0, typeName: 'Fighting', weaknessCount: 3 }",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual { typeCount: 0, typeName: 'Fighting', weaknessCount: 3 }\n    at Context.it (functions/type-stats/spec.js:66:14)"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "data/samples/2.json, \"id\"",
+      "fullTitle": "valuesForKey(pokeData, key) -> returns all the values stored in the given key:  data/samples/2.json, \"id\"",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          43,
+          44,
+          45,
+          46,
+          47
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ 43, 44, 45, 46, 47 ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ 43, 44, 45, 46, 47 ]\n    at Context.it (functions/values-for-key/spec.js:79:14)"
+      }
+    },
+    {
+      "title": "data/samples/3.json, \"num\"",
+      "fullTitle": "valuesForKey(pokeData, key) -> returns all the values stored in the given key:  data/samples/3.json, \"num\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          "083",
+          "084",
+          "085",
+          "086",
+          "087"
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ '083', '084', '085', '086', '087' ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ '083', '084', '085', '086', '087' ]\n    at Context.it (functions/values-for-key/spec.js:79:14)"
+      }
+    },
+    {
+      "title": "data/samples/4.json, \"weaknesses\"",
+      "fullTitle": "valuesForKey(pokeData, key) -> returns all the values stored in the given key:  data/samples/4.json, \"weaknesses\"",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          [
+            "Bug",
+            "Ghost",
+            "Dark"
+          ],
+          [
+            "Fire",
+            "Electric",
+            "Ice",
+            "Flying",
+            "Rock"
+          ],
+          [
+            "Fire",
+            "Bug",
+            "Rock",
+            "Ghost",
+            "Dark",
+            "Steel"
+          ],
+          [
+            "Ground"
+          ],
+          [
+            "Water",
+            "Ground",
+            "Rock"
+          ],
+          [
+            "Fire",
+            "Flying",
+            "Rock"
+          ],
+          [
+            "Fighting"
+          ],
+          [
+            "Electric",
+            "Grass"
+          ],
+          [
+            "Electric",
+            "Rock"
+          ],
+          [
+            "Electric",
+            "Grass",
+            "Fighting",
+            "Rock"
+          ]
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ [ 'Bug', 'Ghost', 'Dark' ],\n  [ 'Fire', 'Electric', 'Ice', 'Flying', 'Rock' ],\n  [ 'Fire', 'Bug', 'Rock', 'Ghost', 'Dark', 'St",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ [ 'Bug', 'Ghost', 'Dark' ],\n  [ 'Fire', 'Electric', 'Ice', 'Flying', 'Rock' ],\n  [ 'Fire', 'Bug', 'Rock', 'Ghost', 'Dark', 'St\n    at Context.it (functions/values-for-key/spec.js:79:14)"
+      }
+    },
+    {
+      "title": "data/samples/5.json, \"next_evolution\"",
+      "fullTitle": "valuesForKey(pokeData, key) -> returns all the values stored in the given key:  data/samples/5.json, \"next_evolution\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          [
+            {
+              "num": "148",
+              "name": "Dragonair"
+            },
+            {
+              "num": "149",
+              "name": "Dragonite"
+            }
+          ],
+          [
+            {
+              "num": "149",
+              "name": "Dragonite"
+            }
+          ]
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ [ { num: '148', name: 'Dragonair' },\n    { num: '149', name: 'Dragonite' } ],\n  [ { num: '149', name: 'Dragonite' } ] ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ [ { num: '148', name: 'Dragonair' },\n    { num: '149', name: 'Dragonite' } ],\n  [ { num: '149', name: 'Dragonite' } ] ]\n    at Context.it (functions/values-for-key/spec.js:79:14)"
+      }
+    },
+    {
+      "title": "data/samples/4.json, \"prev_evolution\"",
+      "fullTitle": "valuesForKey(pokeData, key) -> returns all the values stored in the given key:  data/samples/4.json, \"prev_evolution\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          [
+            {
+              "num": "129",
+              "name": "Magikarp"
+            }
+          ]
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ [ { num: '129', name: 'Magikarp' } ] ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ [ { num: '129', name: 'Magikarp' } ] ]\n    at Context.it (functions/values-for-key/spec.js:79:14)"
+      }
+    },
+    {
+      "title": "data/samples/3.json, \"multipliers\"",
+      "fullTitle": "valuesForKey(pokeData, key) -> returns all the values stored in the given key:  data/samples/3.json, \"multipliers\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          null,
+          [
+            2.19,
+            2.24
+          ],
+          [
+            1.04,
+            1.96
+          ]
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ null, [ 2.19, 2.24 ], [ 1.04, 1.96 ] ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ null, [ 2.19, 2.24 ], [ 1.04, 1.96 ] ]\n    at Context.it (functions/values-for-key/spec.js:79:14)"
+      }
+    },
+    {
+      "title": "data/samples/2.json, \"name\"",
+      "fullTitle": "valuesForKey(pokeData, key) -> returns all the values stored in the given key:  data/samples/2.json, \"name\"",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          "Oddish",
+          "Gloom",
+          "Vileplume",
+          "Paras",
+          "Parasect"
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ 'Oddish', 'Gloom', 'Vileplume', 'Paras', 'Parasect' ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ 'Oddish', 'Gloom', 'Vileplume', 'Paras', 'Parasect' ]\n    at Context.it (functions/values-for-key/spec.js:79:14)"
+      }
+    },
+    {
+      "title": "data/samples/5.json, \"Dragon\"",
+      "fullTitle": "weakness(pokeData, weakness) -> returns the name and number of all pokemon with this weakness:  data/samples/5.json, \"Dragon\"",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "name": "Dratini",
+            "num": "147"
+          },
+          {
+            "name": "Dragonair",
+            "num": "148"
+          },
+          {
+            "name": "Dragonite",
+            "num": "149"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { name: 'Dratini', num: '147' },\n  { name: 'Dragonair', num: '148' },\n  { name: 'Dragonite', num: '149' } ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { name: 'Dratini', num: '147' },\n  { name: 'Dragonair', num: '148' },\n  { name: 'Dragonite', num: '149' } ]\n    at Context.it (functions/find-by/weakness/spec.js:81:14)"
+      }
+    },
+    {
+      "title": "data/samples/4.json, \"Normal\"",
+      "fullTitle": "weakness(pokeData, weakness) -> returns the name and number of all pokemon with this weakness:  data/samples/4.json, \"Normal\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual []",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual []\n    at Context.it (functions/find-by/weakness/spec.js:81:14)"
+      }
+    },
+    {
+      "title": "data/samples/3.json, \"Fighting\"",
+      "fullTitle": "weakness(pokeData, weakness) -> returns the name and number of all pokemon with this weakness:  data/samples/3.json, \"Fighting\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "name": "Dewgong",
+            "num": "087"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { name: 'Dewgong', num: '087' } ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { name: 'Dewgong', num: '087' } ]\n    at Context.it (functions/find-by/weakness/spec.js:81:14)"
+      }
+    },
+    {
+      "title": "data/samples/2.json, \"Bug\"",
+      "fullTitle": "weakness(pokeData, weakness) -> returns the name and number of all pokemon with this weakness:  data/samples/2.json, \"Bug\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "name": "Paras",
+            "num": "046"
+          },
+          {
+            "name": "Parasect",
+            "num": "047"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { name: 'Paras', num: '046' },\n  { name: 'Parasect', num: '047' } ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { name: 'Paras', num: '046' },\n  { name: 'Parasect', num: '047' } ]\n    at Context.it (functions/find-by/weakness/spec.js:81:14)"
+      }
+    },
+    {
+      "title": "data/samples/1.json, \"Electric\"",
+      "fullTitle": "weakness(pokeData, weakness) -> returns the name and number of all pokemon with this weakness:  data/samples/1.json, \"Electric\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "name": "Squirtle",
+            "num": "007"
+          },
+          {
+            "name": "Wartortle",
+            "num": "008"
+          },
+          {
+            "name": "Blastoise",
+            "num": "009"
+          },
+          {
+            "name": "Butterfree",
+            "num": "012"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { name: 'Squirtle', num: '007' },\n  { name: 'Wartortle', num: '008' },\n  { name: 'Blastoise', num: '009' },\n  { name: 'Butterf",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { name: 'Squirtle', num: '007' },\n  { name: 'Wartortle', num: '008' },\n  { name: 'Blastoise', num: '009' },\n  { name: 'Butterf\n    at Context.it (functions/find-by/weakness/spec.js:81:14)"
+      }
+    },
+    {
+      "title": "data/samples/5.json, \"null\"",
+      "fullTitle": "value(pokeData, value) -> returns the name and number of all pokemon with this value in any key:  data/samples/5.json, \"null\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "name": "Moltres",
+            "num": "146"
+          },
+          {
+            "name": "Dragonite",
+            "num": "149"
+          },
+          {
+            "name": "Mewtwo",
+            "num": "150"
+          },
+          {
+            "name": "Mew",
+            "num": "151"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { name: 'Moltres', num: '146' },\n  { name: 'Dragonite', num: '149' },\n  { name: 'Mewtwo', num: '150' },\n  { name: 'Mew', num: ",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { name: 'Moltres', num: '146' },\n  { name: 'Dragonite', num: '149' },\n  { name: 'Mewtwo', num: '150' },\n  { name: 'Mew', num: \n    at Context.it (functions/find-by/value/spec.js:99:14)"
+      }
+    },
+    {
+      "title": "data/samples/4.json, \"None\"",
+      "fullTitle": "value(pokeData, value) -> returns the name and number of all pokemon with this value in any key:  data/samples/4.json, \"None\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "name": "Mr. Mime",
+            "num": "122"
+          },
+          {
+            "name": "Scyther",
+            "num": "123"
+          },
+          {
+            "name": "Jynx",
+            "num": "124"
+          },
+          {
+            "name": "Electabuzz",
+            "num": "125"
+          },
+          {
+            "name": "Magmar",
+            "num": "126"
+          },
+          {
+            "name": "Pinsir",
+            "num": "127"
+          },
+          {
+            "name": "Tauros",
+            "num": "128"
+          },
+          {
+            "name": "Lapras",
+            "num": "131"
+          },
+          {
+            "name": "Ditto",
+            "num": "132"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { name: 'Mr. Mime', num: '122' },\n  { name: 'Scyther', num: '123' },\n  { name: 'Jynx', num: '124' },\n  { name: 'Electabuzz', n",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { name: 'Mr. Mime', num: '122' },\n  { name: 'Scyther', num: '123' },\n  { name: 'Jynx', num: '124' },\n  { name: 'Electabuzz', n\n    at Context.it (functions/find-by/value/spec.js:99:14)"
+      }
+    },
+    {
+      "title": "data/samples/2.json, \"Bug\"",
+      "fullTitle": "value(pokeData, value) -> returns the name and number of all pokemon with this value in any key:  data/samples/2.json, \"Bug\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual []",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual []\n    at Context.it (functions/find-by/value/spec.js:99:14)"
+      }
+    },
+    {
+      "title": "data/samples/1.json, \"12\"",
+      "fullTitle": "value(pokeData, value) -> returns the name and number of all pokemon with this value in any key:  data/samples/1.json, \"12\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "name": "Caterpie",
+            "num": "010"
+          },
+          {
+            "name": "Butterfree",
+            "num": "012"
+          },
+          {
+            "name": "Weedle",
+            "num": "013"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { name: 'Caterpie', num: '010' },\n  { name: 'Butterfree', num: '012' },\n  { name: 'Weedle', num: '013' } ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { name: 'Caterpie', num: '010' },\n  { name: 'Butterfree', num: '012' },\n  { name: 'Weedle', num: '013' } ]\n    at Context.it (functions/find-by/value/spec.js:99:14)"
+      }
+    },
+    {
+      "title": "data/samples/1.json, \"name\", \"Weedle\"",
+      "fullTitle": "keyValue(pokeData, key, value) -> returns the number and name of all pokemon with the given key/value pair:  data/samples/1.json, \"name\", \"Weedle\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "num": "013",
+            "name": "Weedle"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { num: '013', name: 'Weedle' } ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { num: '013', name: 'Weedle' } ]\n    at Context.it (functions/find-by/key-value/spec.js:84:14)"
+      }
+    },
+    {
+      "title": "data/samples/1.json, \"id\", \"12\"",
+      "fullTitle": "keyValue(pokeData, key, value) -> returns the number and name of all pokemon with the given key/value pair:  data/samples/1.json, \"id\", \"12\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "num": "012",
+            "name": "Butterfree"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { num: '012', name: 'Butterfree' } ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { num: '012', name: 'Butterfree' } ]\n    at Context.it (functions/find-by/key-value/spec.js:84:14)"
+      }
+    },
+    {
+      "title": "data/samples/2.json, \"doesNotExist\", \"hi!\"",
+      "fullTitle": "keyValue(pokeData, key, value) -> returns the number and name of all pokemon with the given key/value pair:  data/samples/2.json, \"doesNotExist\", \"hi!\"",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual []",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual []\n    at Context.it (functions/find-by/key-value/spec.js:84:14)"
+      }
+    },
+    {
+      "title": "data/samples/2.json, \"name\", \"Mew\"",
+      "fullTitle": "keyValue(pokeData, key, value) -> returns the number and name of all pokemon with the given key/value pair:  data/samples/2.json, \"name\", \"Mew\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual []",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual []\n    at Context.it (functions/find-by/key-value/spec.js:84:14)"
+      }
+    },
+    {
+      "title": "data/samples/3.json, \"egg\", \"Not in Eggs\"",
+      "fullTitle": "keyValue(pokeData, key, value) -> returns the number and name of all pokemon with the given key/value pair:  data/samples/3.json, \"egg\", \"Not in Eggs\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "num": "085",
+            "name": "Dodrio"
+          },
+          {
+            "num": "087",
+            "name": "Dewgong"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { num: '085', name: 'Dodrio' },\n  { num: '087', name: 'Dewgong' } ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { num: '085', name: 'Dodrio' },\n  { num: '087', name: 'Dewgong' } ]\n    at Context.it (functions/find-by/key-value/spec.js:84:14)"
+      }
+    },
+    {
+      "title": "data/samples/3.json, \"egg\", \"5 km",
+      "fullTitle": "keyValue(pokeData, key, value) -> returns the number and name of all pokemon with the given key/value pair:  data/samples/3.json, \"egg\", \"5 km",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "num": "083",
+            "name": "Farfetch'd"
+          },
+          {
+            "num": "084",
+            "name": "Doduo"
+          },
+          {
+            "num": "086",
+            "name": "Seel"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { num: '083', name: 'Farfetch\\'d' },\n  { num: '084', name: 'Doduo' },\n  { num: '086', name: 'Seel' } ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { num: '083', name: 'Farfetch\\'d' },\n  { num: '084', name: 'Doduo' },\n  { num: '086', name: 'Seel' } ]\n    at Context.it (functions/find-by/key-value/spec.js:84:14)"
+      }
+    },
+    {
+      "title": "data/samples/4.json, \"spawn_time\", \"N/A\"",
+      "fullTitle": "keyValue(pokeData, key, value) -> returns the number and name of all pokemon with the given key/value pair:  data/samples/4.json, \"spawn_time\", \"N/A\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "num": "132",
+            "name": "Ditto"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { num: '132', name: 'Ditto' } ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { num: '132', name: 'Ditto' } ]\n    at Context.it (functions/find-by/key-value/spec.js:84:14)"
+      }
+    },
+    {
+      "title": "data/samples/5.json, \"Dragon\"",
+      "fullTitle": "type(pokeData, type) -> returns the name and number of all pokemon with this type:  data/samples/5.json, \"Dragon\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "name": "Dratini",
+            "num": "147"
+          },
+          {
+            "name": "Dragonair",
+            "num": "148"
+          },
+          {
+            "name": "Dragonite",
+            "num": "149"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { name: 'Dratini', num: '147' },\n  { name: 'Dragonair', num: '148' },\n  { name: 'Dragonite', num: '149' } ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { name: 'Dratini', num: '147' },\n  { name: 'Dragonair', num: '148' },\n  { name: 'Dragonite', num: '149' } ]\n    at Context.it (functions/find-by/type/spec.js:102:14)"
+      }
+    },
+    {
+      "title": "data/samples/4.json, \"Normal\"",
+      "fullTitle": "type(pokeData, type) -> returns the name and number of all pokemon with this type:  data/samples/4.json, \"Normal\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "name": "Tauros",
+            "num": "128"
+          },
+          {
+            "name": "Ditto",
+            "num": "132"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { name: 'Tauros', num: '128' },\n  { name: 'Ditto', num: '132' } ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { name: 'Tauros', num: '128' },\n  { name: 'Ditto', num: '132' } ]\n    at Context.it (functions/find-by/type/spec.js:102:14)"
+      }
+    },
+    {
+      "title": "data/samples/3.json, \"Water\"",
+      "fullTitle": "type(pokeData, type) -> returns the name and number of all pokemon with this type:  data/samples/3.json, \"Water\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "name": "Seel",
+            "num": "086"
+          },
+          {
+            "name": "Dewgong",
+            "num": "087"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { name: 'Seel', num: '086' },\n  { name: 'Dewgong', num: '087' } ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { name: 'Seel', num: '086' },\n  { name: 'Dewgong', num: '087' } ]\n    at Context.it (functions/find-by/type/spec.js:102:14)"
+      }
+    },
+    {
+      "title": "data/samples/2.json, \"Bug\"",
+      "fullTitle": "type(pokeData, type) -> returns the name and number of all pokemon with this type:  data/samples/2.json, \"Bug\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "name": "Paras",
+            "num": "046"
+          },
+          {
+            "name": "Parasect",
+            "num": "047"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { name: 'Paras', num: '046' },\n  { name: 'Parasect', num: '047' } ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { name: 'Paras', num: '046' },\n  { name: 'Parasect', num: '047' } ]\n    at Context.it (functions/find-by/type/spec.js:102:14)"
+      }
+    },
+    {
+      "title": "data/samples/1.json, \"Bug\"",
+      "fullTitle": "type(pokeData, type) -> returns the name and number of all pokemon with this type:  data/samples/1.json, \"Bug\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "name": "Caterpie",
+            "num": "010"
+          },
+          {
+            "name": "Metapod",
+            "num": "011"
+          },
+          {
+            "name": "Butterfree",
+            "num": "012"
+          },
+          {
+            "name": "Weedle",
+            "num": "013"
+          },
+          {
+            "name": "Kakuna",
+            "num": "014"
+          },
+          {
+            "name": "Beedrill",
+            "num": "015"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { name: 'Caterpie', num: '010' },\n  { name: 'Metapod', num: '011' },\n  { name: 'Butterfree', num: '012' },\n  { name: 'Weedle',",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { name: 'Caterpie', num: '010' },\n  { name: 'Metapod', num: '011' },\n  { name: 'Butterfree', num: '012' },\n  { name: 'Weedle',\n    at Context.it (functions/find-by/type/spec.js:102:14)"
+      }
+    },
+    {
+      "title": "data/samples/1.json, 13",
+      "fullTitle": "id(pokeData, id) -> returns the pokemon object with the given id, or an empty object:  data/samples/1.json, 13",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": {
+          "id": 13,
+          "num": "013",
+          "name": "Weedle",
+          "img": "http://www.serebii.net/pokemongo/pokemon/013.png",
+          "type": [
+            "Bug",
+            "Poison"
+          ],
+          "height": "0.30 m",
+          "weight": "3.2 kg",
+          "candy": "Weedle Candy",
+          "candy_count": 12,
+          "egg": "2 km",
+          "spawn_chance": 7.12,
+          "avg_spawns": 712,
+          "spawn_time": "02:21",
+          "multipliers": [
+            1.01,
+            1.09
+          ],
+          "weaknesses": [
+            "Fire",
+            "Flying",
+            "Psychic",
+            "Rock"
+          ],
+          "next_evolution": [
+            {
+              "num": "014",
+              "name": "Kakuna"
+            },
+            {
+              "num": "015",
+              "name": "Beedrill"
+            }
+          ]
+        },
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual { id: 13,\n  num: '013',\n  name: 'Weedle',\n  img: 'http://www.serebii.net/pokemongo/pokemon/013.png',\n  type: [ 'Bug', 'Poison' ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual { id: 13,\n  num: '013',\n  name: 'Weedle',\n  img: 'http://www.serebii.net/pokemongo/pokemon/013.png',\n  type: [ 'Bug', 'Poison' ]\n    at Context.it (functions/find-by/id/spec.js:171:14)"
+      }
+    },
+    {
+      "title": "data/samples/1.json, 16",
+      "fullTitle": "id(pokeData, id) -> returns the pokemon object with the given id, or an empty object:  data/samples/1.json, 16",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": {},
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual {}",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual {}\n    at Context.it (functions/find-by/id/spec.js:171:14)"
+      }
+    },
+    {
+      "title": "data/samples/2.json, 46",
+      "fullTitle": "id(pokeData, id) -> returns the pokemon object with the given id, or an empty object:  data/samples/2.json, 46",
+      "duration": 9,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": {
+          "id": 46,
+          "num": "046",
+          "name": "Paras",
+          "img": "http://www.serebii.net/pokemongo/pokemon/046.png",
+          "type": [
+            "Bug",
+            "Grass"
+          ],
+          "height": "0.30 m",
+          "weight": "5.4 kg",
+          "candy": "Paras Candy",
+          "candy_count": 50,
+          "egg": "5 km",
+          "spawn_chance": 2.36,
+          "avg_spawns": 236,
+          "spawn_time": "01:42",
+          "multipliers": [
+            2.02
+          ],
+          "weaknesses": [
+            "Fire",
+            "Ice",
+            "Poison",
+            "Flying",
+            "Bug",
+            "Rock"
+          ],
+          "next_evolution": [
+            {
+              "num": "047",
+              "name": "Parasect"
+            }
+          ]
+        },
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual { id: 46,\n  num: '046',\n  name: 'Paras',\n  img: 'http://www.serebii.net/pokemongo/pokemon/046.png',\n  type: [ 'Bug', 'Grass' ],\n",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual { id: 46,\n  num: '046',\n  name: 'Paras',\n  img: 'http://www.serebii.net/pokemongo/pokemon/046.png',\n  type: [ 'Bug', 'Grass' ],\n\n    at Context.it (functions/find-by/id/spec.js:171:14)"
+      }
+    },
+    {
+      "title": "data/samples/2.json, 42",
+      "fullTitle": "id(pokeData, id) -> returns the pokemon object with the given id, or an empty object:  data/samples/2.json, 42",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": {},
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual {}",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual {}\n    at Context.it (functions/find-by/id/spec.js:171:14)"
+      }
+    },
+    {
+      "title": "data/samples/3.json, 84",
+      "fullTitle": "id(pokeData, id) -> returns the pokemon object with the given id, or an empty object:  data/samples/3.json, 84",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": {
+          "id": 84,
+          "num": "084",
+          "name": "Doduo",
+          "img": "http://www.serebii.net/pokemongo/pokemon/084.png",
+          "type": [
+            "Normal",
+            "Flying"
+          ],
+          "height": "1.40 m",
+          "weight": "39.2 kg",
+          "candy": "Doduo Candy",
+          "candy_count": 50,
+          "egg": "5 km",
+          "spawn_chance": 0.52,
+          "avg_spawns": 52,
+          "spawn_time": "05:10",
+          "multipliers": [
+            2.19,
+            2.24
+          ],
+          "weaknesses": [
+            "Electric",
+            "Rock"
+          ],
+          "next_evolution": [
+            {
+              "num": "085",
+              "name": "Dodrio"
+            }
+          ]
+        },
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual { id: 84,\n  num: '084',\n  name: 'Doduo',\n  img: 'http://www.serebii.net/pokemongo/pokemon/084.png',\n  type: [ 'Normal', 'Flying'",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual { id: 84,\n  num: '084',\n  name: 'Doduo',\n  img: 'http://www.serebii.net/pokemongo/pokemon/084.png',\n  type: [ 'Normal', 'Flying'\n    at Context.it (functions/find-by/id/spec.js:171:14)"
+      }
+    },
+    {
+      "title": "data/samples/3.json, 85",
+      "fullTitle": "id(pokeData, id) -> returns the pokemon object with the given id, or an empty object:  data/samples/3.json, 85",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": {
+          "id": 85,
+          "num": "085",
+          "name": "Dodrio",
+          "img": "http://www.serebii.net/pokemongo/pokemon/085.png",
+          "type": [
+            "Normal",
+            "Flying"
+          ],
+          "height": "1.80 m",
+          "weight": "85.2 kg",
+          "candy": "Doduo Candy",
+          "egg": "Not in Eggs",
+          "spawn_chance": 0.22,
+          "avg_spawns": 22,
+          "spawn_time": "02:12",
+          "multipliers": null,
+          "weaknesses": [
+            "Electric",
+            "Rock"
+          ],
+          "prev_evolution": [
+            {
+              "num": "084",
+              "name": "Doduo"
+            }
+          ]
+        },
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual { id: 85,\n  num: '085',\n  name: 'Dodrio',\n  img: 'http://www.serebii.net/pokemongo/pokemon/085.png',\n  type: [ 'Normal', 'Flying",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual { id: 85,\n  num: '085',\n  name: 'Dodrio',\n  img: 'http://www.serebii.net/pokemongo/pokemon/085.png',\n  type: [ 'Normal', 'Flying\n    at Context.it (functions/find-by/id/spec.js:171:14)"
+      }
+    },
+    {
+      "title": "data/samples/1.json, \"Squirtle\"",
+      "fullTitle": "evolutionOf(pokeData, name) -> returns all evolutions of a pokemon, given it's name:  data/samples/1.json, \"Squirtle\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "num": "007",
+            "name": "Squirtle"
+          },
+          {
+            "num": "008",
+            "name": "Wartortle"
+          },
+          {
+            "num": "009",
+            "name": "Blastoise"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { num: '007', name: 'Squirtle' },\n  { num: '008', name: 'Wartortle' },\n  { num: '009', name: 'Blastoise' } ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { num: '007', name: 'Squirtle' },\n  { num: '008', name: 'Wartortle' },\n  { num: '009', name: 'Blastoise' } ]\n    at Context.it (functions/evolutions-of/spec.js:51:14)"
+      }
+    },
+    {
+      "title": "data/samples/1.json, \"Wartortle\"",
+      "fullTitle": "evolutionOf(pokeData, name) -> returns all evolutions of a pokemon, given it's name:  data/samples/1.json, \"Wartortle\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "num": "007",
+            "name": "Squirtle"
+          },
+          {
+            "num": "008",
+            "name": "Wartortle"
+          },
+          {
+            "num": "009",
+            "name": "Blastoise"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { num: '007', name: 'Squirtle' },\n  { num: '008', name: 'Wartortle' },\n  { num: '009', name: 'Blastoise' } ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { num: '007', name: 'Squirtle' },\n  { num: '008', name: 'Wartortle' },\n  { num: '009', name: 'Blastoise' } ]\n    at Context.it (functions/evolutions-of/spec.js:51:14)"
+      }
+    },
+    {
+      "title": "data/samples/1.json, \"Blastoise\"",
+      "fullTitle": "evolutionOf(pokeData, name) -> returns all evolutions of a pokemon, given it's name:  data/samples/1.json, \"Blastoise\"",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "num": "007",
+            "name": "Squirtle"
+          },
+          {
+            "num": "008",
+            "name": "Wartortle"
+          },
+          {
+            "num": "009",
+            "name": "Blastoise"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { num: '007', name: 'Squirtle' },\n  { num: '008', name: 'Wartortle' },\n  { num: '009', name: 'Blastoise' } ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { num: '007', name: 'Squirtle' },\n  { num: '008', name: 'Wartortle' },\n  { num: '009', name: 'Blastoise' } ]\n    at Context.it (functions/evolutions-of/spec.js:51:14)"
+      }
+    },
+    {
+      "title": "data/samples/5.json, Mew",
+      "fullTitle": "evolutionOf(pokeData, name) -> returns all evolutions of a pokemon, given it's name:  data/samples/5.json, Mew",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [
+          {
+            "name": "Mew",
+            "num": "151"
+          }
+        ],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual [ { name: 'Mew', num: '151' } ]",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual [ { name: 'Mew', num: '151' } ]\n    at Context.it (functions/evolutions-of/spec.js:51:14)"
+      }
+    },
+    {
+      "title": "data/samples/3.json, \"DoesNotExist\"",
+      "fullTitle": "evolutionOf(pokeData, name) -> returns all evolutions of a pokemon, given it's name:  data/samples/3.json, \"DoesNotExist\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": [],
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual []",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual []\n    at Context.it (functions/evolutions-of/spec.js:51:14)"
+      }
+    },
+    {
+      "title": "data/samples/5.json, \"Dragon\"",
+      "fullTitle": "typeStats(pokeData, type) -> returns how many times a type appears as a type and as a weakness:  data/samples/5.json, \"Dragon\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": {
+          "typeCount": 3,
+          "typeName": "Dragon",
+          "weaknessCount": 3
+        },
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual { typeCount: 3, typeName: 'Dragon', weaknessCount: 3 }",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual { typeCount: 3, typeName: 'Dragon', weaknessCount: 3 }\n    at Context.it (functions/type-stats/spec.js:66:14)"
+      }
+    },
+    {
+      "title": "data/samples/5.json, \"Fairy\"",
+      "fullTitle": "typeStats(pokeData, type) -> returns how many times a type appears as a type and as a weakness:  data/samples/5.json, \"Fairy\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": {
+          "typeCount": 0,
+          "typeName": "Fairy",
+          "weaknessCount": 3
+        },
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual { typeCount: 0, typeName: 'Fairy', weaknessCount: 3 }",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual { typeCount: 0, typeName: 'Fairy', weaknessCount: 3 }\n    at Context.it (functions/type-stats/spec.js:66:14)"
+      }
+    },
+    {
+      "title": "data/samples/2.json, \"Grass\"",
+      "fullTitle": "typeStats(pokeData, type) -> returns how many times a type appears as a type and as a weakness:  data/samples/2.json, \"Grass\"",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": {
+          "typeCount": 5,
+          "typeName": "Grass",
+          "weaknessCount": 0
+        },
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual { typeCount: 5, typeName: 'Grass', weaknessCount: 0 }",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual { typeCount: 5, typeName: 'Grass', weaknessCount: 0 }\n    at Context.it (functions/type-stats/spec.js:66:14)"
+      }
+    },
+    {
+      "title": "data/samples/2.json, \"Fire\"",
+      "fullTitle": "typeStats(pokeData, type) -> returns how many times a type appears as a type and as a weakness:  data/samples/2.json, \"Fire\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": {
+          "typeCount": 0,
+          "typeName": "Fire",
+          "weaknessCount": 5
+        },
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual { typeCount: 0, typeName: 'Fire', weaknessCount: 5 }",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual { typeCount: 0, typeName: 'Fire', weaknessCount: 5 }\n    at Context.it (functions/type-stats/spec.js:66:14)"
+      }
+    },
+    {
+      "title": "data/samples/4.json, \"Normal\"",
+      "fullTitle": "typeStats(pokeData, type) -> returns how many times a type appears as a type and as a weakness:  data/samples/4.json, \"Normal\"",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": {
+          "typeCount": 2,
+          "typeName": "Normal",
+          "weaknessCount": 0
+        },
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual { typeCount: 2, typeName: 'Normal', weaknessCount: 0 }",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual { typeCount: 2, typeName: 'Normal', weaknessCount: 0 }\n    at Context.it (functions/type-stats/spec.js:66:14)"
+      }
+    },
+    {
+      "title": "data/samples/4.json, \"Fighting\"",
+      "fullTitle": "typeStats(pokeData, type) -> returns how many times a type appears as a type and as a weakness:  data/samples/4.json, \"Fighting\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "name": "AssertionError",
+        "expected": {
+          "typeCount": 0,
+          "typeName": "Fighting",
+          "weaknessCount": 3
+        },
+        "operator": "deepStrictEqual",
+        "message": "undefined deepStrictEqual { typeCount: 0, typeName: 'Fighting', weaknessCount: 3 }",
+        "generatedMessage": true,
+        "stack": "AssertionError: undefined deepStrictEqual { typeCount: 0, typeName: 'Fighting', weaknessCount: 3 }\n    at Context.it (functions/type-stats/spec.js:66:14)"
+      }
+    }
+  ],
+  "passes": []
+}
