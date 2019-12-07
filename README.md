@@ -39,6 +39,7 @@ Enjoy!
 * Using `npm`: installing dependencies, running scripts
 * Understanding what "fullstack" means
 * Working with modular code
+* Using branches
 
 
 #### Other People's Code
@@ -100,7 +101,9 @@ Before you start passing tests, you should install all dependencies and practice
 
 ## Your Task
 
-The good news is _almost_ all of the code is already written, and it already works!  All you need to write is the bodies for the 8 functions in `./functions`.  Each of the functions are used by the API to process the PokeDex data and return just the information a user needs.
+> Psst. don't forget to use branches!  Develop each of these functions on their own branch, only merging them to master when all of the test pass.
+
+The good news is _almost_ all of the code is already written, and it already works!  All you need to write is the bodies for the 8 functions in `./functions`.  Each of the functions are used by the API to process the PokeDex data and return just the information a user needs.  
 
 Each function lives in it's own small directory with a descriptive name, with three files:
 1. `index.js`: Contains the empty function you need to write.  Your function is exported from this file for testing, development, and deployment.
