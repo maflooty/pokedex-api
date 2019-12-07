@@ -5,7 +5,7 @@ const assert = require('assert');
 
 const testCases = [
   {
-    name: 'data/samples/5.json, "Dragon"',
+    name: 'typeStats: data/samples/5.json, "Dragon"',
     args: [dataSamples.five, 'Dragon'],
     expected: {
       typeCount: 3,
@@ -14,7 +14,7 @@ const testCases = [
     }
   },
   {
-    name: 'data/samples/5.json, "Fairy"',
+    name: 'typeStats: data/samples/5.json, "Fairy"',
     args: [dataSamples.five, 'Fairy'],
     expected: {
       typeCount: 0,
@@ -23,7 +23,7 @@ const testCases = [
     }
   },
   {
-    name: 'data/samples/2.json, "Grass"',
+    name: 'typeStats: data/samples/2.json, "Grass"',
     args: [dataSamples.two, 'Grass'],
     expected: {
       typeCount: 5,
@@ -32,7 +32,7 @@ const testCases = [
     }
   },
   {
-    name: 'data/samples/2.json, "Fire"',
+    name: 'typeStats: data/samples/2.json, "Fire"',
     args: [dataSamples.two, 'Fire'],
     expected: {
       typeCount: 0,
@@ -41,7 +41,7 @@ const testCases = [
     }
   },
   {
-    name: 'data/samples/4.json, "Normal"',
+    name: 'typeStats: data/samples/4.json, "Normal"',
     args: [dataSamples.four, 'Normal'],
     expected: {
       typeCount: 2,
@@ -50,7 +50,7 @@ const testCases = [
     }
   },
   {
-    name: 'data/samples/4.json, "Fighting"',
+    name: 'typeStats: data/samples/4.json, "Fighting"',
     args: [dataSamples.four, 'Fighting'],
     expected: {
       typeCount: 0,

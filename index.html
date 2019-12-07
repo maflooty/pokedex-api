@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+
+  <title>PokeDex: Mocha Report</title>
+
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <!-- https://stackoverflow.com/questions/1321878/how-to-prevent-favicon-ico-requests -->
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=">
+
+  <script>
+    window.onload = () => {
+
+      fetch('./functions/report.json')
+        .then(resp => resp.json())
+        .then(report => {
+          console.log('Mocha Report:', report);
+
+          const userName = window.location.origin
+            .split('https://').join('')
+            .split('http://').join('')
+            .split('.')
+            .shift();
+
+          const header = document.createElement('h2');
+          header.innerHTML = userName + "'s PokeDex Mocha Report'";
+
+          const statsList = Object.keys(report.stats)
+            .map(key => {
+              const codeEl = document.createElement('code');
+              codeEl.innerHTML = key + ': ' + report.stats[key];
+              const li = document.createElement('li');
+              li.appendChild(codeEl);
+              return li;
+            })
+            .reduce((ul, li) => {
+              ul.appendChild(li);
+              return ul;
+            }, document.createElement('ul'));
+
+          const failuresHeader = document.createElement('h3');
+          failuresHeader.innerHTML = "failures";
+
+          const failuresList = report.failures
+            .map(failureObj => {
+              const summaryCode = document.createElement('code');
+              summaryCode.innerHTML = failureObj.title;
+
+              const summary = document.createElement('summary');
+              summary.appendChild(summaryCode);
+
+              const failurePre = document.createElement('pre');
+              failurePre.innerHTML = JSON.stringify(failureObj, null, '  ');
+
+              const details = document.createElement('details');
+              details.appendChild(summary);
+              details.appendChild(failurePre);
+
+              const li = document.createElement('li');
+              li.appendChild(details);
+              return li;
+            })
+            .reduce((ul, li) => {
+              ul.appendChild(li);
+              return ul;
+            }, document.createElement('ul'));
+
+
+          const passesHeader = document.createElement('h3');
+          passesHeader.innerHTML = "passes";
+
+          const passesList = report.passes
+            .map(passesObj => {
+              const summaryCode = document.createElement('code');
+              summaryCode.innerHTML = passesObj.title;
+
+              const summary = document.createElement('summary');
+              summary.appendChild(summaryCode);
+
+              const failurePre = document.createElement('pre');
+              failurePre.innerHTML = JSON.stringify(passesObj, null, '  ');
+
+              const details = document.createElement('details');
+              details.appendChild(summary);
+              details.appendChild(passesPre);
+
+              const li = document.createElement('li');
+              li.appendChild(details);
+              return li;
+            })
+            .reduce((ul, li) => {
+              ul.appendChild(li);
+              return ul;
+            }, document.createElement('ul'));
+
+
+          const body = document.body;
+          body.appendChild(header);
+          body.appendChild(statsList);
+          body.appendChild(failuresHeader);
+          body.appendChild(failuresList);
+          body.appendChild(passesHeader);
+          body.appendChild(passesList);
+
+        })
+        .catch(err => console.log(err));
+    }
+  </script>
+</head>
+
+<body>
+
+  <div id='root'></div>
+
+</body>
+
+</html>

@@ -5,7 +5,7 @@ const assert = require('assert');
 
 const testCases = [
   {
-    name: 'data/samples/5.json, "null"',
+    name: 'value: data/samples/5.json, "null"',
     args: [dataSamples.five, "null"],
     expected: [
       {
@@ -27,7 +27,7 @@ const testCases = [
     ]
   },
   {
-    name: 'data/samples/4.json, "None"',
+    name: 'value: data/samples/4.json, "None"',
     args: [dataSamples.four, 'None'],
     expected: [
       {
@@ -69,12 +69,12 @@ const testCases = [
     ]
   },
   {
-    name: 'data/samples/2.json, "Bug"',
+    name: 'value: data/samples/2.json, "Bug"',
     args: [dataSamples.two, 'Bug'],
     expected: []
   },
   {
-    name: 'data/samples/1.json, "12"',
+    name: 'value: data/samples/1.json, "12"',
     args: [dataSamples.one, "12"],
     expected: [
       {

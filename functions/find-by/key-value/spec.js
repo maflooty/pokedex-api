@@ -5,7 +5,7 @@ const assert = require('assert');
 
 const testCases = [
   {
-    name: 'data/samples/1.json, "name", "Weedle"',
+    name: 'keyValue: data/samples/1.json, "name", "Weedle"',
     args: [dataSamples.one, 'name', 'Weedle'],
     expected: [
       {
@@ -15,7 +15,7 @@ const testCases = [
     ]
   },
   {
-    name: 'data/samples/1.json, "id", "12"',
+    name: 'keyValue: data/samples/1.json, "id", "12"',
     args: [dataSamples.one, 'id', "12"],
     expected: [
       {
@@ -25,17 +25,17 @@ const testCases = [
     ]
   },
   {
-    name: 'data/samples/2.json, "doesNotExist", "hi!"',
+    name: 'keyValue: data/samples/2.json, "doesNotExist", "hi!"',
     args: [dataSamples.two, 'doesNotExist', 'hi!'],
     expected: []
   },
   {
-    name: 'data/samples/2.json, "name", "Mew"',
+    name: 'keyValue: data/samples/2.json, "name", "Mew"',
     args: [dataSamples.two, 'name', 'Mew'],
     expected: []
   },
   {
-    name: 'data/samples/3.json, "egg", "Not in Eggs"',
+    name: 'keyValue: data/samples/3.json, "egg", "Not in Eggs"',
     args: [dataSamples.three, 'egg', 'Not in Eggs'],
     expected: [
       {
@@ -49,7 +49,7 @@ const testCases = [
     ]
   },
   {
-    name: 'data/samples/3.json, "egg", "5 km',
+    name: 'keyValue: data/samples/3.json, "egg", "5 km',
     args: [dataSamples.three, 'egg', '5 km'],
     expected: [
       {
@@ -67,7 +67,7 @@ const testCases = [
     ]
   },
   {
-    name: 'data/samples/4.json, "spawn_time", "N/A"',
+    name: 'keyValue: data/samples/4.json, "spawn_time", "N/A"',
     args: [dataSamples.four, 'spawn_time', 'N/A'],
     expected: [
       {

@@ -5,7 +5,7 @@ const assert = require('assert');
 
 const testCases = [
   {
-    name: 'data/samples/5.json, "Dragon"',
+    name: 'weakness: data/samples/5.json, "Dragon"',
     args: [dataSamples.five, 'Dragon'],
     expected: [
       {
@@ -23,12 +23,12 @@ const testCases = [
     ]
   },
   {
-    name: 'data/samples/4.json, "Normal"',
+    name: 'weakness: data/samples/4.json, "Normal"',
     args: [dataSamples.four, 'Normal'],
     expected: []
   },
   {
-    name: 'data/samples/3.json, "Fighting"',
+    name: 'weakness: data/samples/3.json, "Fighting"',
     args: [dataSamples.three, 'Fighting'],
     expected: [
       {
@@ -38,7 +38,7 @@ const testCases = [
     ]
   },
   {
-    name: 'data/samples/2.json, "Bug"',
+    name: 'weakness: data/samples/2.json, "Bug"',
     args: [dataSamples.two, 'Bug'],
     expected: [
       {
@@ -52,7 +52,7 @@ const testCases = [
     ]
   },
   {
-    name: 'data/samples/1.json, "Electric"',
+    name: 'weakness: data/samples/1.json, "Electric"',
     args: [dataSamples.one, 'Electric'],
     expected: [
       {

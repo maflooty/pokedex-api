@@ -5,17 +5,17 @@ const assert = require('assert');
 
 const testCases = [
   {
-    name: 'data/samples/2.json, "id"',
+    name: 'valuesForKey: data/samples/2.json, "id"',
     args: [dataSamples.two, 'id'],
     expected: [43, 44, 45, 46, 47]
   },
   {
-    name: 'data/samples/3.json, "num"',
+    name: 'valuesForKey: data/samples/3.json, "num"',
     args: [dataSamples.three, 'num'],
     expected: ['083', '084', '085', '086', '087']
   },
   {
-    name: 'data/samples/4.json, "weaknesses"',
+    name: 'valuesForKey: data/samples/4.json, "weaknesses"',
     args: [dataSamples.four, 'weaknesses'],
     expected: [
       ['Bug', 'Ghost', 'Dark'],
@@ -31,7 +31,7 @@ const testCases = [
     ]
   },
   {
-    name: 'data/samples/5.json, "next_evolution"',
+    name: 'valuesForKey: data/samples/5.json, "next_evolution"',
     args: [dataSamples.five, 'next_evolution'],
     expected: [
       [
@@ -44,7 +44,7 @@ const testCases = [
     ]
   },
   {
-    name: 'data/samples/4.json, "prev_evolution"',
+    name: 'valuesForKey: data/samples/4.json, "prev_evolution"',
     args: [dataSamples.four, 'prev_evolution'],
     expected: [
       [
@@ -53,7 +53,7 @@ const testCases = [
     ]
   },
   {
-    name: 'data/samples/3.json, "multipliers"',
+    name: 'valuesForKey: data/samples/3.json, "multipliers"',
     args: [dataSamples.three, 'multipliers'],
     expected: [
       null,
@@ -61,7 +61,7 @@ const testCases = [
       [1.04, 1.96]
     ]
   }, {
-    name: 'data/samples/2.json, "name"',
+    name: 'valuesForKey: data/samples/2.json, "name"',
     args: [dataSamples.two, 'name'],
     expected: [
       'Oddish',
