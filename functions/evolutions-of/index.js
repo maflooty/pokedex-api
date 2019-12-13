@@ -1,13 +1,13 @@
 const evolutionOf = (pokeArray, name) => {
-      const pokeman = pokeArray.find(pokeman => pokeman.name === name);
-      if(!pokeman) return [];
+      const pokemon = pokeArray.find(p => p.name === name);
+      if(!pokemon) return [];
       const allEvolutions = [];
       if(Array.isArray(pokemon.prev_evolution)) {
-          allEvolutions.push(...pokeman.prev_evolution);
+          allEvolutions.push(...pokemon.prev_evolution);
       }
-      allEvolutions.push({num: pokeman.num, name: pokeman.name});
-      if(Array.isArray(pokeman.next_evolution)) {
-          allEvolutions.push(...pokeman.next_evolution);
+      allEvolutions.push({num: pokemon.num, name: pokemon.name});
+      if(Array.isArray(pokemon.next_evolution)) {
+          allEvolutions.push(...pokemon.next_evolution);
       }
       return allEvolutions;
 };
